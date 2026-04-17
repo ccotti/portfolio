@@ -10,7 +10,7 @@ function Skills() {
         <li>React</li>
       </ul>
 
-/</div>
+</div>
 </section>
   );
 }
