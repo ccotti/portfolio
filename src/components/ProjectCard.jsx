@@ -1,14 +1,23 @@
-function ProjectCard({ project }) {
-  return (
-    <div className="card">
-      <h3>{project.title}</h3>
-      <p>{project.desc}</p>
-      <div>
-        <a href={project.link} target="_blank">Live</a>
-        <a href={project.github} target="_blank">GitHub</a>
-      </div>
-    </div>
-  );
-}
+<div className="project-card">
+  <img src={taskImage} alt="Task Manager App" />
 
-export default ProjectCard;
+  <h3>Task Manager App</h3>
+
+  <p>
+    A React CRUD application that allows users to manage tasks with
+    localStorage persistence.
+  </p>
+
+  <p className="tech">
+    React • JavaScript • CSS
+  </p>
+
+  <div className="buttons">
+    <a href="https://ccottiportfolio.netlify.app/" target="_blank" rel="noopener noreferrer">
+      Live
+    </a>
+    <a href="https://github.com/ccotti/portfolio" target="_blank" rel="noopener noreferrer">
+      GitHub
+    </a>
+  </div>
+</div>

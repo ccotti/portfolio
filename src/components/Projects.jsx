@@ -1,3 +1,5 @@
+import taskImage from "../assets/task-manager.png";
+
 function Projects() {
   return (
     <section className="projects">
