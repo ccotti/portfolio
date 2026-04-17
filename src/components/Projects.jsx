@@ -1,28 +1,16 @@
-import ProjectCard from "./ProjectCard";
+import TaskManager from "./TaskManager";
 
 function Projects() {
-  const projects = [
-    {
-      title: "Task Manager App",
-      desc: "CRUD app with local storage",
-      link: "#",
-      github: "#"
-    },
-    {
-      title: "Weather App",
-      desc: "API-based weather app",
-      link: "#",
-      github: "#"
-    }
-  ];
-
   return (
-    <section id="projects">
-      <h2>Projects</h2>
-      <div className="grid">
-        {projects.map((p, i) => (
-          <ProjectCard key={i} project={p} />
-        ))}
+    <section className="projects">
+      <div className="container">
+        <h2>Projects</h2>
+
+        <div className="project-card">
+          <h3>Task Manager App</h3>
+          <p>React CRUD app with local storage.</p>
+          <TaskManager />
+        </div>
       </div>
     </section>
   );

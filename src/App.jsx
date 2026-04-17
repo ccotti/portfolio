@@ -1,11 +1,17 @@
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 import "./styles.css";
-import TaskManager from "./components/TaskManager";
 
 function App() {
   return (
-    <div>
-      <h1>Chris - Front-End Developer</h1>
-    </div>
+    <>
+      <Hero />
+      <Projects />
+      <Skills />
+      <Contact />
+    </>
   );
 }
 
