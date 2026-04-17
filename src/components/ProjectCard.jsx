@@ -1,5 +1,7 @@
+
+
+
 <div className="project-card">
-  <img src={taskImage} alt="Task Manager App" />
 
   <h3>Task Manager App</h3>
 
