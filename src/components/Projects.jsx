@@ -1,3 +1,4 @@
+
 import taskImage from "../assets/task-manager.png";
 
 function Projects() {
@@ -10,7 +11,9 @@ function Projects() {
 
           <div className="project-card">
             <img src={taskImage} alt="Task Manager App" />
+
             <h3>Task Manager App</h3>
+            
             <p>
               A React CRUD application that allows users to manage tasks with
               localStorage persistence.
