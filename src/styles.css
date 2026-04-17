@@ -30,7 +30,12 @@ section {
   padding: 1.5rem;
   border-radius: 12px;
   margin-top: 2rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
 }
 
 .container {
@@ -71,4 +76,29 @@ button:hover {
 
 li {
   margin: 0.5rem 0;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.tech {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin: 1rem 0;
+}
+
+.buttons a {
+  display: inline-block;
+  margin-right: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: #3b82f6;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.buttons a:hover {
+  background: #2563eb;
 }
