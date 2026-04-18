@@ -8,7 +8,7 @@ function Projects() {
         <div className="projects-grid">
 
           <div className="project-card">
-           <img src="https://picsum.photos/600/300" />
+           <img src="/task-manager.png" alt="Task Manager App" />
 
             <h3>Task Manager App</h3>
             
