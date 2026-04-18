@@ -4,25 +4,27 @@ function Projects() {
    <section id="projects" className="projects">
       <div className="container">
         <h2>Projects</h2>
+      </div>
 
         <div className="projects-grid">
 
           <div className="project-card">
-           
-           <div className="image-wrapper">
-              <img src="/task-manager.png" alt="Task Manager" />
-          </div>
 
-            <h3>Task Manager App</h3>
-            
-            <p>
-              A React CRUD application that allows users to manage tasks with
-              localStorage persistence.
-            </p>
+  <div className="image-wrapper">
+    <img src="/task-manager.png" alt="Task Manager" />
+  </div>
 
-            <p className="tech">
-              React • JavaScript • CSS
-            </p>
+  <div className="card-content">
+    <h3>Task Manager App</h3>
+
+    <p>
+      A React CRUD application that allows users to manage tasks with
+      localStorage persistence.
+    </p>
+
+    <p className="tech">
+      React • JavaScript • CSS
+    </p>
 
             <div className="buttons">
               <a href="https://ccottiportfolio.netlify.app/" 
