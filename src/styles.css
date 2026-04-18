@@ -86,11 +86,14 @@ html {
 }
 
 .project-card img {
-  width: 40%;
-  height: 40%;
+  width: 100%;
+  height: 200px;
   object-fit: cover;
+}
+
+.image-wrapper {
+  overflow: hidden;
   border-radius: 10px;
-  margin-bottom: 1rem;
 }
 
 .projects-grid {
