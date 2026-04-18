@@ -86,8 +86,8 @@ html {
 }
 
 .project-card img {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 1rem;
