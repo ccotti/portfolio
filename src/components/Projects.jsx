@@ -10,7 +10,7 @@ function Projects() {
         <div className="projects-grid">
 
           <div className="project-card">
-            <img src={taskImage} alt="Task Manager App" />
+           <img src="https://via.placeholder.com/300" />
 
             <h3>Task Manager App</h3>
             
