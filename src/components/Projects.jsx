@@ -1,6 +1,4 @@
 
-import taskImage from "../assets/task-manager.png";
-
 function Projects() {
   return (
     <section className="projects">
@@ -10,7 +8,7 @@ function Projects() {
         <div className="projects-grid">
 
           <div className="project-card">
-           <img src="https://via.placeholder.com/300" />
+           <img src="/task-manager.png" alt="Task Manager" />
 
             <h3>Task Manager App</h3>
             
