@@ -112,6 +112,64 @@ html {
   transform: scale(1.05);
 }
 
+.weather-app {
+  max-width: 300px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #0f172a;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.search {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.search input {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: none;
+}
+
+.search button {
+  padding: 0.5rem 0.75rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background: #2563eb;
+}
+
+.weather-result {
+  margin-top: 1rem;
+}
+
+.weather-app h3 {
+  margin-bottom: 0.5rem;
+}
+
+.weather-result h4 {
+  margin-bottom: 0.25rem;
+}
+
+.temp {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.desc {
+  color: #94a3b8;
+  text-transform: capitalize;
+}
+
 .image-wrapper {
   overflow: hidden;
 }

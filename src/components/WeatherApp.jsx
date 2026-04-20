@@ -18,28 +18,29 @@ function WeatherApp() {
     setWeather(data);
   };
 
-  return (
-    <div>
-      <h3>Weather App</h3>
+return (
+  <div className="weather-app">
+    <h3>Weather App</h3>
 
+    <div className="search">
       <input
         type="text"
         placeholder="Enter city"
         value={city}
         onChange={(e) => setCity(e.target.value)}
       />
-
       <button onClick={getWeather}>Search</button>
-
-      {weather && weather.main && (
-        <div>
-          <p>{weather.name}</p>
-          <p>{weather.main.temp}°F</p>
-          <p>{weather.weather[0].description}</p>
-        </div>
-      )}
     </div>
-  );
+
+    {weather && weather.main && (
+      <div className="weather-result">
+        <h4>{weather.name}</h4>
+        <p className="temp">{weather.main.temp}°F</p>
+        <p className="desc">{weather.weather[0].description}</p>
+      </div>
+    )}
+  </div>
+);
 }
 
 export default WeatherApp;
