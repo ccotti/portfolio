@@ -62,14 +62,14 @@ function Projects() {
 
               <div className="buttons">
                 <a
-                  href="#"
+                  href="https://ccottiweather.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Live
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/ccotti/weather-app"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
