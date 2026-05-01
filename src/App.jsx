@@ -1,12 +1,7 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import Contact from "./components/Contact";
 import WeatherApp from "./components/WeatherApp";
-import "./styles.css";
 
 function App() {
+<<<<<<< HEAD
   return (
     <>
       <Navbar />
@@ -16,6 +11,9 @@ function App() {
       <Contact />
     </>
   );
+=======
+  return <WeatherApp />;
+>>>>>>> 115594127b5e70a17d0c7128fc562b047c8b9bc4
 }
 
 export default App;
